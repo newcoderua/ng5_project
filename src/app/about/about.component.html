@@ -1,3 +1,9 @@
 <p>
-  about works!
+  I am here to send you back. <button (click)="sendMeHome()"><strong>Take me back</strong></button>
 </p>
+
+<ul>
+  <li *ngFor="let goal of goals">
+    {{ goal }}
+  </li>
+</ul>
